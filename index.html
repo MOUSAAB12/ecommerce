@@ -46,17 +46,11 @@
         <a href="/" class="logo-mobile-wrapper">
           <img src="/images/logo (1).png" alt="Logo" />
         </a>
-        <div
-          class="header-mobile-action"
-          id="mySidebar"
-          onclick="toggleDropdown()"
-        >
-          <div class="nav-icon1">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-        </div>
+        <button id="nav-icon1" onclick="toggleDropdown()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
       </div>
       <div class="header-dropdown-container show-dropdown" id="main">
         <div class="header-dropdown-wrapper">
@@ -80,6 +74,29 @@
       </div>
     </header>
     <section class="wrapper">
+      <!-- <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/images2/electronic-devices.jpeg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="/images2/back.png" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="/images2/electronic-devices.jpeg" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div> -->
       <div>
         <img class="images" src="/images2/zLSMVlI0-removebg-preview.png" />
       </div>
@@ -1709,4 +1726,12 @@
       </div>
     </footer>
   </body>
+  <!-- <script>
+    function toggleDropdown()
+    if(document.getElementById("main").style.display = "none"){
+       document.getElementById("main").style.display = "block";
+    }else{
+       document.getElementById("main").style.display = "none";
+    }
+  </script> -->
 </html>
